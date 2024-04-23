@@ -8,6 +8,8 @@ import { CustomButton } from '../components/CustomButton';
 import { useState } from 'react';
 import { login } from '../api/authentication';
 import { showError, showMessage } from '../utils/Notify';
+import { Checkbox } from '@mui/material';
+import CheckBox from '../components/CheckBox';
 
 type LoginData = {
     username: string;
@@ -101,9 +103,10 @@ const Login = () => {
                                         />
                                         <ErrorText text={errors?.password?.message || ""} />
                                     </div>
+                                    <CheckBox fieldName='Remember me' />
                                     <CustomButton loading={loading} text="Login" />
                                 </form>
-                                <div className="flex justify-between mt-[15px] text-[rgb(9,132,253)]  max-sm:text-[15px]  max-sm:font-[400]">
+                                <div className="flex justify-between mt-[15px] text-[rgb(9,132,253)] max-sm:text-[15px] max-sm:font-[400]">
                                     <span className="cursor-pointer hover:text-yellow-400">Forgot Password?</span>
                                     <span className="cursor-pointer hover:text-yellow-400">Register Here</span>
                                 </div>
