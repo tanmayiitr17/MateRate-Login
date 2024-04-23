@@ -57,16 +57,16 @@ const Login = () => {
         <div>
             <Navbar />
             <div className="flex items-center justify-center ">
-                <div className="shadow-[0px_7px_21px_rgba(0,0,0,0.4)] rounded-[10px] bg-[#fff] my-[7vw] mx-[5vw] w-[70vw]  max-sm:w-[90vw]">
+                <div className="shadow-[0px_7px_21px_rgba(0,0,0,0.4)] rounded-[10px] bg-[#fff] my-[7vw] mx-[5vw] w-[70vw]  max-sm:w-[90vw] max-sm:h-[100vh]">
                     <div className="py-[25px] px-[30px] flex flex-col justify-center items-center">
                         <h1 className="text-center text-[30px] font-bold relative w-[max-content]
                          before:absolute before:inset-0 before:bg-white before:animate-typewriter  max-sm:text-[20px]">
                             <span className='text-center'>Welcome to <span className="text-[rgb(255,214,0)]">M</span>ateRate!</span>
                         </h1>
-                        <div className="flex w-[100%] gap-[7%] max-sm:flex-col">
+                        <div className="flex w-[100%] gap-[7%] max-sm:flex-col max-sm:gap-[15%]">
                             <div className="w-[100%]">
                                 <img src="https://nom.mathmaterate.com/static/media/loginillustration.761bdb873abee02c0aa0.png" alt="pic"
-                                    className="w-[40vw] h-[50vh]  max-sm:w-full  max-sm:h-full"
+                                    className="w-[40vw] h-[50vh] max-sm:w-full max-sm:h-full"
                                 />
                             </div>
                             <div className="flex flex-col justify-center w-[100%]">
@@ -103,7 +103,7 @@ const Login = () => {
                                     </div>
                                     <CustomButton loading={loading} text="Login" />
                                 </form>
-                                <div className="flex justify-between mt-[10px] text-[rgb(9,132,253)]  max-sm:text-[15px]  max-sm:font-[400]">
+                                <div className="flex justify-between mt-[15px] text-[rgb(9,132,253)]  max-sm:text-[15px]  max-sm:font-[400]">
                                     <span className="cursor-pointer hover:text-yellow-400">Forgot Password?</span>
                                     <span className="cursor-pointer hover:text-yellow-400">Register Here</span>
                                 </div>

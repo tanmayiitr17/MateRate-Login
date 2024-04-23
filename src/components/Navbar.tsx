@@ -27,8 +27,8 @@ const Navbar = () => {
             <DensityMediumIcon className="!hidden !text-[#fff] !cursor-pointer max-sm:!block" onClick={handleHamberger} />
             {open &&
                 <div className='bg-[rgb(9,132,253)] w-full fixed top-0 left-0 right-0 z-[100]'>
-                    <CloseRoundedIcon className='!text-yellow-400 !cursor-pointer fixed top-1 right-1' onClick={handleHamberger} />
-                    <div className=" flex items-center flex-col gap-[17px] text-[17px] py-[5vh] text-[#fff] font-[500]">
+                    <CloseRoundedIcon className='!text-yellow-400 !cursor-pointer fixed top-0 right-0 !w-[10%] !h-[10%]' onClick={handleHamberger} />
+                    <div className=" flex items-center flex-col gap-[17px] text-[17px] py-[7vh] text-[#fff] font-[500]">
                         <span className="cursor-pointer hover:text-yellow-400">Home</span>
                         <span className="cursor-pointer hover:text-yellow-400">About Us</span>
                         <span className="cursor-pointer hover:text-yellow-400">Login</span>
