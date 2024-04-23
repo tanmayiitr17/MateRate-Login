@@ -8,7 +8,6 @@ import { CustomButton } from '../components/CustomButton';
 import { useState } from 'react';
 import { login } from '../api/authentication';
 import { showError, showMessage } from '../utils/Notify';
-import { Checkbox } from '@mui/material';
 import CheckBox from '../components/CheckBox';
 
 type LoginData = {
