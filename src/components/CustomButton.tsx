@@ -19,7 +19,7 @@ export const CustomButton: FC<ButtonProps> = ({
         <Button
             disabled={loading}
             className={`${loading ? "!bg-[rgb(37,141,243)] !text-yellow-400" : "!bg-[rgb(9,132,253)]"
-                }  !w-[100%] !mt-[20px] h-[40px] !border-[0.5px] !border-[rgba(68,68,68,0.57)] !rounded-[4px] !text-[#FFF] text-[16px] font-[500] gap-y-[45px] ${className}`}
+                }  !w-[100%] h-[40px] !border-[0.5px] !border-[rgba(68,68,68,0.57)] !rounded-[4px] !text-[#FFF] text-[16px] font-[500] gap-y-[45px] ${className}`}
             type="submit"
         >
             <span className="hover:text-yellow-400">{text}</span>
