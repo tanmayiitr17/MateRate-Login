@@ -57,7 +57,7 @@ const Login = () => {
         <div>
             <Navbar />
             <div className="flex items-center justify-center ">
-                <div className="shadow-[0px_7px_21px_rgba(0,0,0,0.4)] rounded-[10px] bg-[#fff] my-[7vw] mx-[5vw] w-[70vw]  max-sm:w-[90vw] max-sm:h-[100vh]">
+                <div className="shadow-[0px_7px_21px_rgba(0,0,0,0.4)] rounded-[10px] bg-[#fff] my-[7vw] mx-[5vw] w-[70vw]  max-sm:w-[90vw]">
                     <div className="py-[25px] px-[30px] flex flex-col justify-center items-center">
                         <h1 className="text-center text-[30px] font-bold relative w-[max-content]
                          before:absolute before:inset-0 before:bg-white before:animate-typewriter  max-sm:text-[20px]">
