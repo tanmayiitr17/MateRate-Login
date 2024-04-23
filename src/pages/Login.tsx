@@ -71,7 +71,7 @@ const Login = () => {
                                 />
                             </div>
                             <div className="flex flex-col justify-center w-[100%]">
-                                <h2 className="font-[500] text-[25px] border-b-[3px] border-b-solid border-b-[rgb(9,132,253)] w-[13%]  max-sm:w-[15%] max-sm:text-[20px]">Login</h2>
+                                <h2 className="font-[500] text-[25px] border-b-[3px] border-b-solid border-b-[rgb(9,132,253)] w-[13%]  max-sm:w-[16%] max-sm:text-[20px]">Login</h2>
                                 <form onSubmit={handleSubmit(onSubmit)} className="mt-[15px]">
                                     <div>
                                         <Controller
