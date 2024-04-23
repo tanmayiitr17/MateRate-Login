@@ -4,7 +4,7 @@ const CustomInput = ({
     value = "",
     onChange,
     type = "text",
-    placeholder = "Type...",
+    placeholder = "Enter...",
 }: {
     fieldName?: string;
     value?: any;
